@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" href="../wp-content/themes/politicalwp/images/theme_favicon.png">
+</head>
+
+<body>
+    <h1>Registration Form</h1>
+    <p>Please fill out this form with the required information</p>
+    <form action='#'>
+        <fieldset>
+            <label>Name:<i class="required-field">*</i> <input type="text" name="name" required /></label>
+            <label>Age:<i class="required-field">*</i> <input type="number" name="age" min="13" max="120"
+                    required /></label>
+                <label>Gender:<i class="required-field">*</i>
+                    <select name="gender" required>
+                        <option value="">-- Select --</option>
+                        <option value="1">Female</option>
+                        <option value="2">Male</option>
+                        <option value="3">LGBTQ</option>
+                    </select>
+                </label>
+                <label>District:<i class="required-field">*</i>
+                    <select name="district" required>
+                        <option value="">-- Select --</option>
+                        <option value="1">GYALSHING DISTRICT</option>
+                        <option value="2">SORENG DISTRICT</option>
+                        <option value="3">NAMCHI DISTRICT</option>
+                        <option value="4">GANGTOK DISTRICT</option>
+                        <option value="5">PAKYONG DISTRICT</option>
+                        <option value="6">MANGAN DISTRICT</option>
+                    </select>
+                </label>
+                <label>Constituency:<i class="required-field">*</i>
+                    <select name="Constituency" required>
+                        <option value="">-- Select --</option>
+                        <option value="1">YOKSUM TASHIDING</option>
+                        <option value="2">YANGTHANG</option>
+                        <option value="3">MANEYBUNG DENTAM</option>
+                        <option value="4">GYALSHING BERMOIK</option>
+                    </select>
+                </label>
+                <label>Post In Party:<i class="required-field">*</i> <input type="text" name="post-in-party"
+                        required /></label>
+                <label>Address:<i class="required-field">*</i>
+                    <textarea name="address" rows="3" cols="30" placeholder="Enter your address..." required></textarea>
+                </label>
+                <label>Enter Your Phone Number:<i class="required-field">*</i> <input type="text" name="phone"
+                        required /></label>
+                <label>Enter Your Email:<i class="required-field">*</i> <input type="email" name="email"
+                        required /></label>
+                <label>Party Membership Card Number:<i class="required-field">*</i> <input type="text"
+                        name="party-membership-number" required /></label>
+                <label>Voted Id Number:<i class="required-field">*</i> <input type="text" name="voterId-number"
+                        required /></label>
+                <label>Aadhaar Number:<i class="required-field">*</i> <input type="text" name="aadhaar-number"
+                        required /></label>
+                <label>Applicant Photo:<input type="file" name="applicant-photo" /></label>
+                <label>Party Membership Card:<input type="file" name="party-membership-card" /></label>
+                <label>Upload your Voter Card:<input type="file" name="voter-card" /></label>
+                <label>Upload your Aadhaar Card:<input type="file" name="aadhaar-card" /></label>
+        </fieldset>
+        <input type="submit" value="Submit" />
+    </form>
+</body>
+
+</html>
