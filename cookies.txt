@@ -1,7 +1,0 @@
-# HTTrack Website Copier Cookie File
-# This file format is compatible with Netscape cookies
-politicalwp.themeslr.com	TRUE	/	FALSE	1999999999	wordpress_test_cookie	WP+Cookie+check
-politicalwp.themeslr.com	TRUE	/	FALSE	1999999999	woocommerce_items_in_cart	1
-politicalwp.themeslr.com	TRUE	/	FALSE	1999999999	wp_woocommerce_session_a896d4c9da5b834df1d8cc2165865f62	a8991c80bd28977aeee6828a6942da26%7C%7C1664551961%7C%7C1664548361%7C%7Ce000339a6c482b60597afa185defd1f4
-politicalwp.themeslr.com	TRUE	/	FALSE	1999999999	woocommerce_cart_hash	7325f1ec22fbf3a08a237bea46764a0b
-

@@ -16,7 +16,13 @@
             $count = mysqli_num_rows($result);  
               
             if($count == 1){  
-                echo "<h1><center> Login successful </center></h1>";  
+                // echo "<h1><center> Login successful </center></h1>";  
+                
+                // if(isset($_POST['mySubmit'])) {
+                //     header('Location: index.html');
+                // }
+               if( $_POST['user'] == $username && $_POST['pass'] == $password)
+               header( 'Location: ../index.html' );
             }  
             else{  
                 echo "<h1> Login failed. Invalid username or password.</h1>";  
