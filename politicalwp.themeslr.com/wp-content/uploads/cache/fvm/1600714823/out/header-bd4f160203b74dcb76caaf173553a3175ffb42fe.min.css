@@ -1,8 +1,4 @@
-/*!
- * WPBakery Page Builder v6.0.0 (https://wpbakery.com)
- * Copyright 2011-2020 Michael M, WPBakery
- * License: Commercial. More details: https://go.wpbakery.com/licensing
- */
+
 .vc_row:after,
 .vc_row:before {
     content: " ";
@@ -22257,7 +22253,7 @@ select.tribe-events-dropdown {
 }
 
 .tribe-events-loop {
-    clear: both
+    clear: both;
 }
 
 .tribe-events-loop .type-tribe_events.tribe-events-last {
@@ -26475,7 +26471,6 @@ ul.tribe-events-sub-nav a {
     padding-right: 3px
 }
 
-.events-list .tribe-events-loop,
 .single-tribe_organizer .tribe-events-loop,
 .single-tribe_venue .tribe-events-loop,
 .tribe-events-day .tribe-events-loop {

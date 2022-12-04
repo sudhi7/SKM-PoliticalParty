@@ -7,6 +7,7 @@
 
     <link href="./style.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="utf-8"></script>
 
 
     <title>SKM - Application View</title>
@@ -149,26 +150,32 @@
                                 <div class="card-footer bg-light">
                                     <span class="heading-text">Party Membership</span>
                                     <div class="heading-elements img-magnifier-container">
-                                        <img id="party-membership" src="../wp-content/uploads/test/text.jpg"
-                                            onmouseover="magnify('party-membership', 3)" onmouseout="normalImg()" />
+                                        <img src="../wp-content/uploads/test/text.jpg" id="image" class="zoom"
+                                            data-magnify-src="../wp-content/uploads/test/text.jpg" />
                                     </div>
                                 </div>
                                 <hr>
                                 <div class="card-footer bg-light">
                                     <span class="heading-text">Voter card</span>
                                     <div class="heading-elements img-magnifier-container">
-                                        <img id="voter-card" src="../wp-content/uploads/test/text.jpg" alt=""
-                                            onmouseover="magnify('voter-card', 3)" onmouseout="normalImg()">
+                                        <img src="../wp-content/uploads/test/text.jpg" alt="" id="image" class="zoom"
+                                            data-magnify-src="../wp-content/uploads/test/text.jpg">
                                     </div>
                                 </div>
                                 <hr>
                                 <div class="card-footer bg-light">
                                     <span class="heading-text">Aadhaar Card</span>
                                     <div class="heading-elements img-magnifier-container">
-                                        <img id="aadhaar-card" src="../wp-content/uploads/test/text.jpg" alt=""
-                                            onmouseover="magnify('aadhaar-card', 3)" onmouseout="normalImg()">
+                                        <img src="../wp-content/uploads/test/text.jpg" alt="" id="image" class="zoom"
+                                            data-magnify-src="../wp-content/uploads/test/text.jpg">
                                     </div>
                                 </div>
+                                <script src="jquery.magnify.js" charset="utf-8"></script>
+                                <script>
+                                    $(document).ready(function () {
+                                        $('.zoom').magnify();
+                                    });
+                                </script>
                             </div>
                         </div>
                     </div>
